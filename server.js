@@ -13,12 +13,12 @@ connectDB();
 app.use(express.json());
 
 // Configure CORS to allow requests from http://localhost:3000
-app.use(cors({
+/*app.use(cors({
   origin: 'https://etutor-front.onrender.com',
   //origin: 'http://localhost:3000',
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
   credentials: true 
-}));
+}));*/
 
 app.use(cors({
   origin: 'https://etutor-g1hk.onrender.com',
